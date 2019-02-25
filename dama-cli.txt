@@ -1,0 +1,91 @@
+Vzhled:
+=======
+w - bílý kámen
+W - bílá dáma
+b - černý kámen
+B - černý dáma
+
+Ovládání:
+=========
+h - help
+c - connect
+l - load
+s - save
+S - save as
+q - quit
+
+What needs to happen:
+=====================
+help            - Display this help.
+hint            - Display random possible stroke.
+history         - Display history.
+load "filename" - Load game only with suffix txt or xml.
+save "filename" - Save game only with suffix txt or xml.
+abort           - Abort current game.
+quit            - Quit game.
+
+  a b c d e f g h
+  _-_-_-_-_-_-_-_
+8| | | | | | | | |8
+7| | | | | | | | |7
+6| | | | | | | | |6
+5| | | | | | | | |5
+4| | | | | | | | |4
+3| | | | | | | | |3
+2| | | | | | | | |2
+1| | | | | | | | |1
+  ^-^-^-^-^-^-^-^
+  a b c d e f g h
+
+  a b c d e f g h    ||   history    ||---------------||
+  _-_-_-_-_-_-_-_    ||==============|| 8. c3-b4 b6-c5||
+1| | | | | | | | |   ||1. c3-b4 b6-c5|| 9. c3-b4 b6-c5||
+2| | | | | | | | |   ||2. c3-b4 b6-c5||10. c3xb4 b6xc5||
+3| | | | | | | | |   ||3. c3xb4 b6-c5||11. c3-b4 b6-c5||
+4| | | | | | | | |   ||4. c3-b4 b6-c5||12. c3-b4 b6xc5||
+5| | | | | | | | |   ||5. c3-b4 b6xc5||13. c3-b4 b6-c5||
+6| | | | | | | | |   ||6. c3-b4 b6-c5||14. c3xb4 b6-c5||
+7| | | | | | | | |   ||7. c3-b4 b6-c5||15. c3-b4 b6-c5||
+8| | | | | | | | |   ||--------------||===============||
+  ^-^-^-^-^-^-^-^
+
+  a b c d e f g h    ||   history    ||
+  _-_-_-_-_-_-_-_    ||==============||
+1| | | | | | | | |   ||1. c3-b4 b6-c5||
+2| | | | | | | | |   ||
+3| | | | | | | | |   ||
+4| | | | | | | | |   ||
+5| | | | | | | | |   ||
+6| | | | | | | | |   ||
+7| | | | | | | | |   ||
+8| | | | | | | | |   ||
+  ^-^-^-^-^-^-^-^
+Type 'help' for help.
+What needs to happen?
+c6-d5
+
+  a b c d e f g h
+  _-_-_-_-_-_-_-_
+1| |B| |B| |B| |B|
+2|B| |B| |B| |B| |
+3| |B| |B| |B| |B|
+4| | | | | | | | |
+5| | | | | | | | |
+6|W| |W| |W| |W| |
+7| |W| |W| |W| |W|
+8|W| |W| |W| |W| |
+  ^-^-^-^-^-^-^-^
+
+  a b c d e f g h
+  _-_-_-_-_-_-_-_
+1| |b| |b| |b| |b|
+2|b| |b| |b| |b| |
+3| |b| |b| |b| |b|
+4| | | | | | | | |
+5| | | | | | | | |
+6|w| |w| |w| |w| |
+7| |w| |w| |w| |w|
+8|w| |w| |w| |w| |
+  ^-^-^-^-^-^-^-^
+
+

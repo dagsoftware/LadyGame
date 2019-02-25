@@ -1,0 +1,27 @@
+<RCC>
+    <qresource prefix="/">
+        <file>img/abort.ico</file>
+        <file>img/back.ico</file>
+        <file>img/close.ico</file>
+        <file>img/exit.ico</file>
+        <file>img/hint.ico</file>
+        <file>img/lang.ico</file>
+        <file>img/next.ico</file>
+        <file>img/open.ico</file>
+        <file>img/play.ico</file>
+        <file>img/about.ico</file>
+        <file>img/about.png</file>
+        <file>img/pause.ico</file>
+        <file>img/save.ico</file>
+        <file>img/settings.ico</file>
+        <file>img/time.ico</file>
+        <file>img/new.ico</file>
+        <file>img/stone/white_pawn.png</file>
+        <file>img/stone/black_dame.png</file>
+        <file>img/stone/black_pawn.png</file>
+        <file>img/stone/white_dame.png</file>
+        <file>img/seek-back.ico</file>
+        <file>img/seek-fwd.ico</file>
+        <file>img/skip-back.ico</file>
+    </qresource>
+</RCC>
